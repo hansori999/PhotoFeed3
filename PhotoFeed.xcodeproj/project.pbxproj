@@ -15,6 +15,7 @@
 		3DF95EB41CDC422B00EFAE10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF95EB21CDC422B00EFAE10 /* LaunchScreen.storyboard */; };
 		3DF95EBF1CDC422B00EFAE10 /* PhotoFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EBE1CDC422B00EFAE10 /* PhotoFeedTests.swift */; };
 		3DF95ECA1CDC422B00EFAE10 /* PhotoFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EC91CDC422B00EFAE10 /* PhotoFeedUITests.swift */; };
+		3DF95ED81CDC710300EFAE10 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DF95ED71CDC710300EFAE10 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3DF95EC51CDC422B00EFAE10 /* PhotoFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF95EC91CDC422B00EFAE10 /* PhotoFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeedUITests.swift; sourceTree = "<group>"; };
 		3DF95ECB1CDC422B00EFAE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF95ED71CDC710300EFAE10 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				3DF95EB01CDC422B00EFAE10 /* Assets.xcassets */,
 				3DF95EB21CDC422B00EFAE10 /* LaunchScreen.storyboard */,
 				3DF95EB51CDC422B00EFAE10 /* Info.plist */,
+				3DF95ED71CDC710300EFAE10 /* Settings.bundle */,
 				3DF95EAD1CDC422B00EFAE10 /* PhotoFeed.xcdatamodeld */,
 			);
 			path = PhotoFeed;
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF95ED81CDC710300EFAE10 /* Settings.bundle in Resources */,
 				3DF95EB41CDC422B00EFAE10 /* LaunchScreen.storyboard in Resources */,
 				3DF95EB11CDC422B00EFAE10 /* Assets.xcassets in Resources */,
 				3DF95EAC1CDC422B00EFAE10 /* Main.storyboard in Resources */,
