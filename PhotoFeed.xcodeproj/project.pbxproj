@@ -10,12 +10,10 @@
 		3DF95EA71CDC422B00EFAE10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EA61CDC422B00EFAE10 /* AppDelegate.swift */; };
 		3DF95EA91CDC422B00EFAE10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EA81CDC422B00EFAE10 /* ViewController.swift */; };
 		3DF95EAC1CDC422B00EFAE10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF95EAA1CDC422B00EFAE10 /* Main.storyboard */; };
-		3DF95EAF1CDC422B00EFAE10 /* PhotoFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EAD1CDC422B00EFAE10 /* PhotoFeed.xcdatamodeld */; };
 		3DF95EB11CDC422B00EFAE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF95EB01CDC422B00EFAE10 /* Assets.xcassets */; };
 		3DF95EB41CDC422B00EFAE10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF95EB21CDC422B00EFAE10 /* LaunchScreen.storyboard */; };
 		3DF95EBF1CDC422B00EFAE10 /* PhotoFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EBE1CDC422B00EFAE10 /* PhotoFeedTests.swift */; };
 		3DF95ECA1CDC422B00EFAE10 /* PhotoFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF95EC91CDC422B00EFAE10 /* PhotoFeedUITests.swift */; };
-		3DF95ED81CDC710300EFAE10 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DF95ED71CDC710300EFAE10 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +38,6 @@
 		3DF95EA61CDC422B00EFAE10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF95EA81CDC422B00EFAE10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DF95EAB1CDC422B00EFAE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DF95EAE1CDC422B00EFAE10 /* PhotoFeed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoFeed.xcdatamodel; sourceTree = "<group>"; };
 		3DF95EB01CDC422B00EFAE10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF95EB31CDC422B00EFAE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DF95EB51CDC422B00EFAE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,7 +47,6 @@
 		3DF95EC51CDC422B00EFAE10 /* PhotoFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF95EC91CDC422B00EFAE10 /* PhotoFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFeedUITests.swift; sourceTree = "<group>"; };
 		3DF95ECB1CDC422B00EFAE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DF95ED71CDC710300EFAE10 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +103,6 @@
 				3DF95EB01CDC422B00EFAE10 /* Assets.xcassets */,
 				3DF95EB21CDC422B00EFAE10 /* LaunchScreen.storyboard */,
 				3DF95EB51CDC422B00EFAE10 /* Info.plist */,
-				3DF95ED71CDC710300EFAE10 /* Settings.bundle */,
-				3DF95EAD1CDC422B00EFAE10 /* PhotoFeed.xcdatamodeld */,
 			);
 			path = PhotoFeed;
 			sourceTree = "<group>";
@@ -235,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF95ED81CDC710300EFAE10 /* Settings.bundle in Resources */,
 				3DF95EB41CDC422B00EFAE10 /* LaunchScreen.storyboard in Resources */,
 				3DF95EB11CDC422B00EFAE10 /* Assets.xcassets in Resources */,
 				3DF95EAC1CDC422B00EFAE10 /* Main.storyboard in Resources */,
@@ -263,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF95EAF1CDC422B00EFAE10 /* PhotoFeed.xcdatamodeld in Sources */,
 				3DF95EA91CDC422B00EFAE10 /* ViewController.swift in Sources */,
 				3DF95EA71CDC422B00EFAE10 /* AppDelegate.swift in Sources */,
 			);
@@ -492,6 +484,7 @@
 				3DF95ED01CDC422B00EFAE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF95ED11CDC422B00EFAE10 /* Build configuration list for PBXNativeTarget "PhotoFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +493,7 @@
 				3DF95ED31CDC422B00EFAE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF95ED41CDC422B00EFAE10 /* Build configuration list for PBXNativeTarget "PhotoFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,21 +502,9 @@
 				3DF95ED61CDC422B00EFAE10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3DF95EAD1CDC422B00EFAE10 /* PhotoFeed.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3DF95EAE1CDC422B00EFAE10 /* PhotoFeed.xcdatamodel */,
-			);
-			currentVersion = 3DF95EAE1CDC422B00EFAE10 /* PhotoFeed.xcdatamodel */;
-			path = PhotoFeed.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3DF95E9B1CDC422B00EFAE10 /* Project object */;
 }
